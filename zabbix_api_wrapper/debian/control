@@ -1,0 +1,12 @@
+Source: zabbix_api-1.0.0
+Section: python
+Priority: optional
+Maintainer:David Xu <xxb1114@hotmail.com>
+
+Package:zabbix_api-1.0.0
+Section:utils
+Priority:optional
+Architecture:any
+Depends: curl, python-dateutil
+Description:zabbix api wrapper package
+
