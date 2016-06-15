@@ -3,12 +3,11 @@ import os
 import threading
 import logging
 from logging.handlers import RotatingFileHandler
-import zabbix_settings as settings
 
 class logWrapper(object):
 
-    __DEFAULT_LOG_FILE_PATH = settings.log_path  + "tdn_monitor.log"
-    __DEFAULT_LOG_NAME = 'tdn_metric'
+    __DEFAULT_LOG_FILE_PATH = "./zabbix_api_wrapper.log"
+    __DEFAULT_LOG_NAME = 'zabbix_api'
 
     instance = None
     mutex = threading.Lock()

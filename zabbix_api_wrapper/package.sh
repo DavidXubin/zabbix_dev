@@ -1,7 +1,7 @@
 #!/bin/bash
 pkgdir=build
 
-cd ./tdn_sla/tdn_monitor/
+cd ./zabbix_api_wrapper/
 rm ./build/ -rf
 # clean the build space first
 debuild clean || true
