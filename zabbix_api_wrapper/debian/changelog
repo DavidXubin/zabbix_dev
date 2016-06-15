@@ -1,0 +1,6 @@
+zabbix_api-1.0.0 (1.0.0.0-precise1) precise; urgency=low
+
+  * Provide zabbix api for zabbix group/host/item/screen creation and zabbix data transmit
+
+ -- David Xu <xxb1114@hotmail.com>  Wed, 30 Mar 2016 12:00:00 +0800
+

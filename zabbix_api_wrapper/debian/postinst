@@ -1,0 +1,5 @@
+#! /bin/bash
+
+mkdir -p /usr/share/zabbix_api_wrapper/
+chown root:root /usr/share/zabbix_api_wrapper
+chown root:root /usr/share/zabbix_api_wrapper/*
